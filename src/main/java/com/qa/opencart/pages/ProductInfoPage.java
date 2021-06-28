@@ -34,6 +34,7 @@ public class ProductInfoPage {
 	}
 
 	public String getProductHeaderText() {
+		System.out.println("getting product header value ......");
 		return elementUtil.doGetText(productHeader);
 	}
 
@@ -65,6 +66,7 @@ public class ProductInfoPage {
 		}
 	}
 
+//get product price data
 	private void getProductPriceData() {
 
 		// price:
